@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/uniImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/pixel_google" />
+
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextContent"
+            android:id="@+id/uniName"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Univesity Name"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="32sp" />
+
+        <TextView
+            style="@style/TextContent"
+            android:id="@+id/uniDescription"
+            android:layout_marginBottom="18dp"
+            android:lineSpacingMultiplier="1"
+            android:text="Content Fill"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <ImageButton
+                android:id="@+id/share"
+                android:layout_marginLeft="140dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/share"
+                android:adjustViewBounds="true"
+                android:padding="7dp"
+                android:scaleType="fitCenter"
+                android:background="#7985C1"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageButton
+                android:id="@+id/favorite"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:adjustViewBounds="true"
+                android:padding="7dp"
+                android:layout_toRightOf="@+id/share"
+                android:scaleType="fitCenter"
+                android:background="#FF5722"
+                android:layout_marginLeft="20dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

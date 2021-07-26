@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UniversityRank</string>
+    <string name="uni_name">University Name</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+
+    <string name="profile">My Profile</string>
+    <string name="about">My Github</string>
+    <string name="github_rizkajuliant20">rizkajuliant20</string>
+    <string name="email_rizkariz20_gmail_com">rizkariz20@gmail.com</string>
+    <string name="rizka_yulianti_pratiwi">Rizka Yulianti Pratiwi</string>
+</resources>
